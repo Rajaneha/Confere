@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+	html{
+		scroll-behavior:smooth;
+	}
+	
+    @media only screen and (min-width: 1025px) {
+        .mobile-only {
+            display:none !important;
+        }
+    } 
+    @media only screen and (max-width: 1026px) {
+        .desktop-only {
+            display:none !important;
+        }
+    } 
+
+</style>
+<title>ICC3 2023-Hosted by AMCS,PSG Tech</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Confpro template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css">
+<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<script nonce="6ac9dda1-1ae5-4431-9468-45fd1c2ec0be">(function(w,d){!function(eK,eL,eM,eN){eK.zarazData=eK.zarazData||{};eK.zarazData.executed=[];eK.zaraz={deferred:[],listeners:[]};eK.zaraz.q=[];eK.zaraz._f=function(eO){return function(){var eP=Array.prototype.slice.call(arguments);eK.zaraz.q.push({m:eO,a:eP})}};for(const eQ of["track","set","debug"])eK.zaraz[eQ]=eK.zaraz._f(eQ);eK.zaraz.init=()=>{var eR=eL.getElementsByTagName(eN)[0],eS=eL.createElement(eN),eT=eL.getElementsByTagName("title")[0];eT&&(eK.zarazData.t=eL.getElementsByTagName("title")[0].text);eK.zarazData.x=Math.random();eK.zarazData.w=eK.screen.width;eK.zarazData.h=eK.screen.height;eK.zarazData.j=eK.innerHeight;eK.zarazData.e=eK.innerWidth;eK.zarazData.l=eK.location.href;eK.zarazData.r=eL.referrer;eK.zarazData.k=eK.screen.colorDepth;eK.zarazData.n=eL.characterSet;eK.zarazData.o=(new Date).getTimezoneOffset();if(eK.dataLayer)for(const eX of Object.entries(Object.entries(dataLayer).reduce(((eY,eZ)=>({...eY[1],...eZ[1]})))))zaraz.set(eX[0],eX[1],{scope:"page"});eK.zarazData.q=[];for(;eK.zaraz.q.length;){const e_=eK.zaraz.q.shift();eK.zarazData.q.push(e_)}eS.defer=!0;for(const fa of[localStorage,sessionStorage])Object.keys(fa||{}).filter((fc=>fc.startsWith("_zaraz_"))).forEach((fb=>{try{eK.zarazData["z_"+fb.slice(7)]=JSON.parse(fa.getItem(fb))}catch{eK.zarazData["z_"+fb.slice(7)]=fa.getItem(fb)}}));eS.referrerPolicy="origin";eS.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(eK.zarazData)));eR.parentNode.insertBefore(eS,eR)};["complete","interactive"].includes(eL.readyState)?zaraz.init():eK.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,0,"script");})(window,document);</script></head>
+
+<body>
+	<div class="super_container">
+
+		<header class="header">
+			<div class="header_content d-flex flex-row align-items-center justify-content-start">
+
+				<div class="logo">
+					<a href="#">
+						<img src="./images/psgnamelogo4nobg2.png" class = "fr-fic fr-dib desktop-only style-max-width: 650px">
+					
+				</div>
+				<div class="logo">
+					<a href="#">
+						<img src="./images/psgnamelogo4nobg2.png" class = "fr-fic fr-dib mobile-only style-max-width: 100px">
+					
+				</div>
+
+				<!--<div class="logo1">
+					<span style="color:white;font-size:16px">Department of Applied Mathematics and Computational Science</span>
+					<br>
+					<span style="color:white; font-size:16px">PSG College of Technology</span>
+					</a>
+				</div>-->
+				<div class="nav_div">
+				<nav class="main_nav">
+					<ul class="d-flex flex-row align-items-center justify-content-start">
+						<li class="active"><a href="index.html">Home</a></li>
+							<li class="has_children">
+								<a href="#About">About</a>
+								<ul>
+									<li><a href="#College">The College</a></li>
+									<li><a href="#Department">The Department</a></li>
+									<li><a href="#Conference">The Conference</a></li>
+									<li><a href="">Committee</a></li>
+								</ul>
+							</li>
+							<li class="has_children">
+								<a href="">For Authors</a>
+								<ul>
+									<li><a href="#callForPapers">Call For Papers</a></li>
+									<!--<li class="has_children">
+										<a href="#">Nav Item</a>
+										<ul>
+											<li><a href="#">Nav Item</a></li>
+											<li><a href="#">Nav Item</a></li>
+											<li><a href="#">Nav Item</a></li>
+										</ul>
+									</li>-->
+									<li><a href="#">Important Dates</a></li>
+									<li><a href="#">Registrations</a></li>
+									<li><a href="#">Submission Guidelines</a></li>
+									<li><a href="#">Submit your papers</a></li>
+									<li><a href="#">Schedule</a></li>
+									<li><a href="#Tracks">Tracks</a></li>
+									
+								</ul>
+							</li>	
+						</li>
+						<!--<li><a href="blog.html">Committee</a></li>-->
+						<li><a href="#speaker">Speakers</a></li>
+						<!--<li><a href="#Papers">Papers</a></li>-->
+						<li><a href="">Publications</a></li>
+						<li><a href="#contact">Contact</a></li>
+						
+					</ul>
+				</nav>
+				</div>
+				<!--<div class="header_right ml-auto d-flex flex-row align-items-center justify-content-start">
+					<div class="log_reg">
+						<ul class="d-flex flex-row align-items-start justify-content-start">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+						</ul>
+					</div>
+					<div class="social">
+						<ul class="d-flex flex-row align-items-center justify-content-start">
+							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="header_link">
+						<a href="#">
+						<span>get tickets<img src="images/arrow.png" alt=""></span>
+						</a>
+					</div></div>-->
+					<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div> 
+				
+			</div>
+		</header>
+
+		<div class="menu">
+			<div class="menu_container">
+				<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+				<div class="menu_content d-flex flex-column align-items-center justify-content-start">
+					<nav class="menu_nav">
+						<ul class="d-flex flex-column align-items-center justify-content-start">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#About">About</a></li>
+							<li><a href="">For Authors</a></li>
+							<li><a href="blog.html">Committee</a></li>
+							<li><a href="#speaker">Speakers</a></li>
+							<li><a href="#">Papers</a></li>
+							<li><a href="">Publications</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="menu_social">
+					<div class="social">
+						<ul class="d-flex flex-row align-items-center justify-content-start">
+							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="home">
+			<div class="home_slider_container">
+				<div class="owl-carousel owl-theme home_slider">
+					<div class="slide">
+						<div class="background_image" style="background-image:url(images/psg2.png)"></div>
+						<div class="home_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="home_content">
+											<div class="home_title">
+												<h1>
+													<span>6<sup>th</sup>International Conference on</span>
+													<span>Computational Intelligence, </span>
+													<span>Cyber Security and</span>
+													<span>Computational Models(ICC<sup> 3</sup> - 2023)</span>
+												</h1>
+											</div>
+											<div class="home_info_container">
+												<div class="home_info">
+													<ul class="d-flex flex-row align-items-center justify-content-start">
+														<li>12-16 February 2023</li>
+														<li>PSG Tech , Coimbatore</li>
+													</ul>
+												</div>
+											</div>
+											<!--<div class="button button_1 home_button"><a href="#"><span>get tickets<img src="images/arrow_2.png" alt=""></span></a></div>-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="background_image" style="background-image:url(images/fountain1_1.png)"></div>
+						<div class="home_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="home_content">
+											<div class="home_title">
+												<h1>
+													<span>6<sup>th</sup> International Conference on</span>
+													<span>Computational Intelligence, </span>
+													<span>Cyber Security and</span>
+													<span>Computational Models(ICC<sup> 3</sup> - 2023)</span>
+												</h1>
+											</div>
+											<div class="home_info_container">
+												<div class="home_info">
+													<ul class="d-flex flex-row align-items-center justify-content-start">
+														<li>12-16 February 2023</li>
+														<li>PSG Tech , Coimbatore</li>
+													</ul>
+												</div>
+											</div>
+											<!--<div class="button button_1 home_button"><a href="#"><span>get tickets<img src="images/arrow_2.png" alt=""></span></a></div>-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="background_image" style="background-image:url(images/bridge1.png)"></div>
+						<div class="home_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="home_content">
+											<div class="home_title">
+												<h1>
+													<span>6<sup>th</sup> International Conference on</span>
+													<span>Computational Intelligence, </span>
+													<span>Cyber Security and</span>
+													<span>Computational Models(ICC<sup> 3</sup> - 2023)</span>
+												</h1>
+											</div>
+											<div class="home_info_container">
+												<div class="home_info">
+													<ul class="d-flex flex-row align-items-center justify-content-start">
+														<li>12-16 February 2023</li>
+														<li>PSG Tech , Coimbatore</li>
+													</ul>
+												</div>
+											</div>
+											<!--<div class="button button_1 home_button"><a href="#"><span>get tickets<img src="images/arrow_2.png" alt=""></span></a></div>-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="home_slider_dots_container">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="home_slider_dots">
+									<ul id="home_slider_custom_dots" class="home_slider_custom_dots d-flex flex-row align-items-start justify-content-start">
+										<li class="home_slider_custom_dot active">01.</li>
+										<li class="home_slider_custom_dot">02.</li>
+										<li class="home_slider_custom_dot">03.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="timer_section">
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/timer.jpg.webp" data-speed="0.8"></div>
+			<div class="timer_overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="timer_container">
+							<ul class="timer d-flex flex-row align-items-center justify-content-start">
+								<li class="d-flex flex-column justify-content-start align-items-center">
+									<div id="day" class="timer_num">3</div>
+									<div class="timer_unit">Days</div>
+								</li>
+								<li class="d-flex flex-column justify-content-start align-items-center">
+									<div id="hour" class="timer_num">00</div>
+									<div class="timer_unit">Hours</div>
+								</li>
+								<li class="d-flex flex-column justify-content-start align-items-center">
+									<div id="minute" class="timer_num">00</div>
+									<div class="timer_unit">Minutes</div>
+								</li>
+								<li class="d-flex flex-column justify-content-start align-items-center">
+									<div id="second" class="timer_num">00</div>
+									<div class="timer_unit">Seconds</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--<div class="intro">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<div class="section_title_container text-center">
+							<div class="section_title"><h1>The Best Marketing Conference</h1></div>
+						</div>
+						<div class="intro_text text-center">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+						</div>
+						<div class="button button_2 intro_button"><a href="#"><span>get tickets<img src="images/arrow.png" alt=""></span></a></div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<div class="tabs_section" id="About">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container text-center">
+						<div class="section_subtitle">PSG Tech - ICC3 2023</div>
+							<div class="section_title"><h1>About</h1></div>
+						</div>
+						<div class="tabs_container">
+							<div class="tabs d-flex flex-row align-items-center justify-content-start flex-wrap">
+								<div class="tab active">The College</div>
+								<div class="tab" >The Department</div>
+								<div class="tab" >The Conference</div>
+							</div>
+							<div class="tab_panels">
+								<div class="tab_panel active" id="College">
+									<div class="row">
+										<div class="col-lg-7">
+											<div class="tab_panel_content">
+												<!--<div class="tab_title"><h3>About the College</h3></div>-->
+												<div class="tab_text"style="text-align:justify" >
+													<p>PSG College of Technology, established in the year 1951 by the PSG & Sons' Charities, Coimbatore, is one of the premier institutions of the country and is an excellent centre for advanced studies and research in several areas of Science and Engineering.The college has excellent infrastructure, well-equipped laboratories and highly qualified and experienced faculty.
+													The College has signed MoU with research organizations and industries  across the globe to promote technology development, training of students, curriculum updation and development of state-of-art centres.</p>
+												</div>
+												<div class="tab_link"><a href="#">Read More</a></div>
+											</div>
+										</div>
+										<div class="col-lg-5 tab_col">
+											<div class="tab_panel_image"><img src="images/psgtech.JPG" alt=""></div>
+										</div>
+									</div>
+								</div>
+								<div class="tab_panel" id="Department">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="tab_panel_content">
+												<!--<div class="tab_title"><h3>About the Department</h3></div>-->
+												<div class="tab_text"style="text-align:justify">
+													<p>The Department of Applied Mathematics and Computational Sciences has a fundamental objective to develop quality professionals by providing concept-oriented subject knowledge through high quality teaching supplemented with practical training. Our academic process mainly focus on implementation of concepts and their applications in various fields of science and engineering.</p>
+												</div>
+												<div class="tab_link"><a href="#">Read More</a></div>
+											</div>
+										</div>
+										<div class="col-lg-6 tab_col">
+											<div class="tab_panel_image"><img src="images/dept.jpg" alt=""></div>
+										</div>
+									</div>
+								</div>
+								<div class="tab_panel" id="Conference">
+									<div class="row">
+										<div class="col-lg-7">
+											<div class="tab_panel_content">
+												<!--<div class="tab_title"><h3>About the Conference</h3></div>-->
+												<div class="tab_text"style="text-align:justify">
+													<p>ICC 3 is a biennial conference which is themed on interdisciplinary research areas such as Computational Intelligence, Cyber Security  and Computational Models. The core research focus of the Department being Applied Mathematics, this conference aims to create a forum for experts from top notch Universities and R& D Industries to share their advancements in these multifaceted domain.This 3-day event includes plenary talks from the speakers and presentation by research scholors who have been closely working in these fields. With the increasing popularity of these open-ended research fields of Computer Science and Data Science, 
+														This conference will be a idle platform for researchers to exchange their innovative ideas, experiences, challenges and establish research relations worldwide.
+													</p>
+												</div>
+												<div class="tab_link"><a href="#">Read More</a></div>
+											</div>
+										</div>
+										<div class="col-lg-5 tab_col">
+											<div class="tab_panel_image"><img src="images/confer2.jpeg" alt=""></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="intro" id="callForPapers">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						
+						<div class="section_title_container text-center">
+							<div class="section_subtitle">PSG Tech - ICC3 2023</div>
+							<div class="section_title"><h1>Call For Papers</h1></div>
+						</div>
+						<div class="intro_text"	  style = "text-align:justify">
+							<p>We enthusiastically encourage prospective authors to submit an electronic version of their original research papers that contain 
+							contributions of theoretical, experimental or application nature using EasyChair.The conference is organized in three tracks 
+							Computational Models, Computational Intelligence and CyberSecurity with the theme "Recent Trends in Computational Models, Intelligence 
+							and Security Systems" and will feature distinguished invited speakers in each track.<br>
+
+							<br><b>Computational Models</b><br>
+							Computational Modelling formulates and models real-world problems, then uses computing to develop solutions Computational models have 
+							an influential role in developing and understanding complex systems with the support of mathematics, physics and computer simulation. 
+							Computational models help various stakeholders of the system to visualize, predict, optimize, regulate and control complex systems 
+							using high-end computing technology. Computational models evolve over time, as abstractions are introduced to eliminate unnecessary 
+							details and clarify the important design. Computational modelling and simulation methods can be developed for a vast range of science 
+							and engineering disciplines and far beyond.<br>
+
+							<br><b>Computational Intelligence</b><br>
+
+							Computational Intelligence is a set of nature inspired computational methodologies and techniques to address complex real world 
+							problems. It encompasses neural networks, fuzzy logic and evolutionary computation as its main key elements. It is an evolving field
+							and many computing paradigms including ambient intelligence, cultural learning and deep learning constitute the main core of
+							computational intelligence. The aim of computational intelligence is to develop a new arena for analyzing and creating effective 
+							processing elements with adequate knowledge on sensing, interpreting, learning, thinking and remembering to aid intuitive information 
+							processing systems.<br>
+
+							<br><b>CyberSecurity</b><br>
+							Cyber Security is becoming an increasingly central facet of national security strategy and a lot of people are working collectively in 
+							the field of Cyber Security. Both the private and public sectors are relying on cybersecurity. Securing network and information systems
+							are essential to keeping the online economy in shape and to ensure progress. The rise of new technologies and changing norms of remote
+							working are increasingly opening a Pandora's Box of critical infrastructure vulnerabilities. Being aware of potential cybersecurity 
+							threats, building a threat-resistant and agile infrastructure and adoption of best practices to mitigate operational hiccups and 
+							security risks are the most pertinent needs of every application sector. Security for Cyber Physical Systems, Networking protocols,
+							Botnets and Malware, Intrusion detection, Data privacy, Authentication and Cryptanalysis are the core research areas in the field of 
+							cyber security.<br>
+
+							Developing models of computation with intelligence and security form a basis of the theory of computational methods. Hence, the three 
+							areas namely computational intelligence, computational models and cyber security become inter-related under the umbrella of 
+							computational methods.<br>
+
+							Papers are solicited from industry, government and academia (including students) covering relevant research, technologies, methodologies,
+							tools and case studies. The aim of this conference series is to bring to the front the novel ideas in the theory and progress of 
+							cybersecurity, computational advancement for modelling and intelligence inorder to achieve a major breakthrough, practical improvements 
+							and new research directions. The topics listed below are meant to indicate the breadth of the area and are definitely not to be considered
+							exhaustive. <br>
+							The submitted paper must be substantially original work, which has neither been published before nor is under review for any other conference 
+							or journal. The ICC3 strictly prohibits any plagiarism. The ICC3 retains the right to eliminate any paper in violation of these requirements 
+							and to exclude the author(s) of such papers from future ICC3 conferences. On the basis of double blind review process, selected papers 
+							recommended by the Review Committee, would be compiled in a proceeding. It is planned to publish the peer reviewed and selected papers 
+							of conference as proceedings with Springer in their prestigious Communications in Computer and Information Science series.<br></p>
+						</div>
+						<!--<div class="button button_2 intro_button"><a href="#"><span>get tickets<img src="images/arrow.png" alt=""></span></a></div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tabs_section" id="Tracks">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container text-center">
+							<div class="section_subtitle">PSG Tech - ICC3 2023</div>
+							<div class="section_title"><h1>The Tracks</h1></div>
+						</div>
+						<div class="tabs_container">
+							<div class="tabs d-flex flex-row align-items-center justify-content-start flex-wrap">
+								<div class="tab active">01. Computational Intelligence</div>
+								<div class="tab">02. Cyber Security</div>
+								<div class="tab">03. Computational Models</div>
+								<!--<div class="tab">04. Online Stategy</div>
+								<div class="tab">05. Stories</div>
+								<div class="tab">06. Special Guest</div>-->
+							</div>
+							<div class="tab_panels">
+								<div class="tab_panel active">
+									<div class="row">
+										<div class="col-lg-7">
+											<div class="tab_panel_content">
+												<!--<div class="tab_title"><h3>Computational Intelligence</h3></div>-->
+												<div class="tab_text">
+													<p>													
+													Bioinfomatics
+													<br>Computer Vision
+													<br>Data Mining
+													<br>Decision Support Systems
+													<br>Evolutionary Computation
+													<br>Formal Language
+													<br>Fuzzy systems
+													<br>Human-Computer Interaction
+													<br>Information Retreival
+													<br>Machine Learning
+													<br>Natural Language Processing
+													<br>Nature and Bio inspired Computing
+													<br>Neural Networks
+													<br>Pattern Recognition
+													<br>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-5 tab_col">
+											<!--<div class="tab_panel_image"><img src="images/tabs.jpg" alt=""></div>-->
+										</div>
+									</div>
+								</div>
+								<div class="tab_panel">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="tab_panel_content">
+												<!--<div class="tab_title"><h3>Cyber Security</h3></div>-->
+												<div class="tab_text">
+													<p>
+													Applied Cryptography
+													<br>Authentication and Data Privacy
+													<br>Cryptanalysis 
+													<br>Cloud/Web/Wireless Security
+													<br>Data and Application Security
+													<br>Digital Rights Management
+													<br>Digital Forensics
+													<br>Formal Methods in Security
+													<br>Intrusion Detection/Prevention
+													<br>Information Security in IoT
+													<br>Malware and Botnets
+													<br>Mobile System Security
+													<br>Security for Smart Grid Communication
+													<br>Security of Cyber-Physical Systems
+													<br>Trustworthy Data Collection in IoT
+													</p>
+													</div>
+												<div class="tab_link"><a href="#">Read More</a></div>
+											</div>
+										</div>
+										<div class="col-lg-6 tab_col">
+											<!--<div class="tab_panel_image"><img src="images/tabs.jpg" alt=""></div>-->
+										</div>
+									</div>
+								</div>
+								<div class="tab_panel">
+									<div class="row">
+										<div class="col-lg-7">
+											<div class="tab_panel_content">
+												<!--<div class="tab_title"><h3>Computational Models</h3></div>-->
+												<div class="tab_text">
+													<p>
+													Agent Based Models
+													<br>Cloud Computing
+													<br>Combinatorial Optimization
+													<br>Computational Geometry
+													<br>Complex Network Models
+													<br>Digital Topology
+													<br>Database Models
+													<br>Deep Learning Models
+													<br>Graph Models
+													<br>Membrane Computing
+													<br>Predictive Models
+													<br>Stochastic Models
+													<br>Theory of Computation
+													<br>Quantum Computing
+													
+													</p></div>
+												<div class="tab_link"><a href="#">Read More</a></div>
+											</div>
+										</div>
+										<!--<div class="col-lg-5 tab_col">
+											<div class="tab_panel_image"><img src="images/tabs.jpg" alt=""></div>
+										</div>-->
+									</div>
+								</div>
+								<!--<div class="tab_panel">
+									<div class="row">
+										<div class="col">
+											<div class="tab_panel_content">
+												<div class="tab_title"><h3>04. Online Stategy</h3></div>
+												<div class="tab_text">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Etiam pretium, nibh vitae varius ultricies, tellus diam gravida elit, vel rhoncus eros eros sit amet ipsum. Cras cursus pellentesque tortor, vitae efficitur nisi laoreet in. Suspendisse libero erat, aliquet eu maximus ac, dignissim vitae ex. Nam vel euismod risus, tempor venenatis nunc.</p>
+												</div>
+												<div class="tab_link"><a href="#">Read More</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab_panel">
+									<div class="row">
+										<div class="col">
+											<div class="tab_panel_content">
+												<div class="tab_title"><h3>05. Stories</h3></div>
+												<div class="tab_text">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Etiam pretium, nibh vitae varius ultricies, tellus diam gravida elit, vel rhoncus eros eros sit amet ipsum. Cras cursus pellentesque tortor, vitae efficitur nisi laoreet in. Suspendisse libero erat, aliquet eu maximus ac, dignissim vitae ex. Nam vel euismod risus, tempor venenatis nunc.</p>
+												</div>
+												<div class="tab_link"><a href="#">Read More</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab_panel">
+									<div class="row">
+										<div class="col">
+											<div class="tab_panel_content">
+												<div class="tab_title"><h3>06. Special Guest</h3></div>
+												<div class="tab_text">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Etiam pretium, nibh vitae varius ultricies, tellus diam gravida elit, vel rhoncus eros eros sit amet ipsum. Cras cursus pellentesque tortor, vitae efficitur nisi laoreet in. Suspendisse libero erat, aliquet eu maximus ac, dignissim vitae ex. Nam vel euismod risus, tempor venenatis nunc.</p>
+												</div>
+												<div class="tab_link"><a href="#">Read More</a></div>
+											</div>
+										</div>
+									</div>
+								</div>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="schedule">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container text-center">
+							<div class="section_subtitle">PSG Tech - ICC3 2023</div>
+							<div class="section_title"><h1>Schedule</h1></div>
+						</div>
+					</div>
+				</div>
+				<div class="row schedule_row">
+
+					<div class="col-lg-6 schedule_col">
+						<div class="schedule_container">
+							<div class="schedule_title_bar schedule_title_bar_1 text-center">Day 1. <span>February 12, 2019</span></div><br>
+							<div class="update_soon">Will be Updated soon</div>
+							<!--<div class="schedule_list">
+								<ul>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_1.jpg" alt=""></div>
+										<div class="schedule_content">
+											<div class="schedule_time">08:00 AM - 09:00 AM</div>
+											<div class="schedule_title">Grand Opening</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_2.jpg" alt=""></div>
+										<div class="schedule_content">
+											<div class="schedule_time">09:00 AM - 10:00 AM</div>
+											<div class="schedule_title">Marketing 101</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_3.jpg" alt=""></div>
+										<div class="schedule_content">
+											<div class="schedule_time">10:00 AM - 11:00 AM</div>
+											<div class="schedule_title">Big Marketing Strategy</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_4.jpg" alt=""></div>
+										<div class="schedule_content">
+											<div class="schedule_time">11:00 AM - 12:00 AM</div>
+											<div class="schedule_title">Coffe Break</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_5.jpg" alt=""></div>
+										<div class="schedule_content">
+											<div class="schedule_time">12:00 AM - 13:00 PM</div>
+											<div class="schedule_title">Online Strategy</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+								</ul>
+							</div>-->
+						</div>
+					</div>
+
+					<div class="col-lg-6 schedule_col">
+						<div class="schedule_container">
+							<div class="schedule_title_bar schedule_title_bar_2 text-center">Day 2. <span>February 13, 2019</span></div><br>
+							<div class="update_soon">Will be Updated soon</div>
+							<!--<div class="schedule_list">
+								<ul>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_6.jpg" alt=""></div>
+										<div class="schedule_content">
+											<div class="schedule_time">08:00 AM - 09:00 AM</div>
+											<div class="schedule_title">Grand Opening</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_7.jpg" alt=""></div>
+										<div class="schedule_content">
+											<div class="schedule_time">09:00 AM - 10:00 AM</div>
+											<div class="schedule_title">Marketing 101</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_8.jpg" alt=""></div>
+											<div class="schedule_content">
+											<div class="schedule_time">10:00 AM - 11:00 AM</div>
+											<div class="schedule_title">Big Marketing Strategy</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_9.jpg" alt=""></div>
+											<div class="schedule_content">
+											<div class="schedule_time">11:00 AM - 12:00 AM</div>
+											<div class="schedule_title">Coffe Break</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_10.jpg" alt=""></div>
+											<div class="schedule_content">
+											<div class="schedule_time">12:00 AM - 13:00 PM</div>
+											<div class="schedule_title">Online Strategy</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div class="schedule_image"><img src="images/schedule_11.jpg" alt=""></div>
+											<div class="schedule_content">
+											<div class="schedule_time">13:00 PM - 14:00 PM</div>
+											<div class="schedule_title">Online Strategy</div>
+											<div class="schedule_info">Host: <a href="#">Michael Smith</a> - Marketing ING CEO</div>
+										</div>
+									</li>
+								</ul>
+							</div>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="speaker" class="speakers">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container text-center">
+							<div class="section_subtitle">PSG Tech - ICC3 2023</div>
+							<div class="section_title"><h1>Speakers</h1></div>
+						</div>
+					</div>
+				</div>
+				<div class="update_soon">Will be Updated soon</div>
+				<!--<div class="row speakers_row">
+
+					<div class="col-xl-4 col-md-6">
+						<div class="speaker">
+							<div class="speaker_image"><img src="images/speaker_1.jpg" alt=""></div>
+							<div class="speaker_info d-flex flex-column align-items-start justify-content-center">
+								<div class="speaker_name"><a href="#">Maria Smith</a></div>
+								<div class="speaker_title">Marketing Guru</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-6">
+						<div class="speaker">
+							<div class="speaker_image"><img src="images/speaker_2.jpg" alt=""></div>
+							<div class="speaker_info d-flex flex-column align-items-start justify-content-center">
+								<div class="speaker_name"><a href="#">James Williams</a></div>
+								<div class="speaker_title">Marketing Guru</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-6">
+						<div class="speaker">
+							<div class="speaker_image"><img src="images/speaker_3.jpg" alt=""></div>
+							<div class="speaker_info d-flex flex-column align-items-start justify-content-center">
+								<div class="speaker_name"><a href="#">Michael Parker</a></div>
+								<div class="speaker_title">Marketing Guru</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-6">
+						<div class="speaker">
+							<div class="speaker_image"><img src="images/speaker_4.jpg" alt=""></div>
+							<div class="speaker_info d-flex flex-column align-items-start justify-content-center">
+								<div class="speaker_name"><a href="#">Gabriel Kim</a></div>
+								<div class="speaker_title">Marketing Guru</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-6">
+						<div class="speaker">
+							<div class="speaker_image"><img src="images/speaker_5.jpg" alt=""></div>
+							<div class="speaker_info d-flex flex-column align-items-start justify-content-center">
+								<div class="speaker_name"><a href="#">Christine Brown</a></div>
+								<div class="speaker_title">Marketing Guru</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-6">
+						<div class="speaker">
+							<div class="speaker_image"><img src="images/speaker_6.jpg" alt=""></div>
+							<div class="speaker_info d-flex flex-column align-items-start justify-content-center">
+								<div class="speaker_name"><a href="#">Laura White</a></div>
+								<div class="speaker_title">Marketing Guru</div>
+							</div>
+						</div>
+					</div>
+				</div>-->
+			</div>
+		</div>
+
+		<div class="cta">
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta.jpg.webp" data-speed="0.8"></div>
+			<div class="cta_overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="cta_content text-center">
+							<div class="cta_title text-center"><h1>Get your tickets now!</h1></div>
+							<div class="cta_text text-center">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+							</div>
+							<div class="button button_3 cta_button"><a href="#"><span>get tickets<img src="images/arrow.png" alt=""></span></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer id="contact"class="footer">
+			<div class="footer_container">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12 text-center">
+                                            <h2>Contact Us</h2>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="column-content">
+                                                    <ul class="address">
+                                                        <li> <i class="fa fa-map-marker"></i>
+                                                            <strong>Contact<br></strong>Dr S Praveenkumar <br>
+                                                            Mrs S Sharmila<br>
+                                                            Organizing Secretaries<br>
+                                                            RCMS'2023<br>
+                                                            Department of Civil Engineering<br>
+                                                            PSG College of Technology<br>
+                                                            Coimbatore-4
+                                                        </li>
+                                                        <li> <i class="fa fa-phone"></i> <strong>Call Us</strong><br>
+                                                            0422-43444140 <br>
+                                                            98948 61585 </li>
+                                                        <li> <i class="fa fa-envelope"></i> <strong>Email
+                                                                Us</strong><br> rcms23.civil@psgtech.ac.in</li>
+                                                        <li><i class="fa fa-user"></i> <strong>Number of People
+                                                                visited</strong><br>
+                                                            <div>
+                                                                <h5 style="color:#f1f1f1;">Total Visitors: <span
+                                                                        id="counter"></span></h5>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9">
+                                                <div class="directions-input-wrap">
+                                                    < class="directions-input">
+
+                                                        <script>
+                                                            const countEl = document.getElementById("counter");
+
+                                                            function updateVisitCount() {
+                                                                fetch("https://api.countapi.xyz/hit/my-site/hellohello/?amount=1")
+                                                                    .then((res) => res.json())
+                                                                    .then((res) => {
+                                                                        countEl.innerHTML = res.value;
+                                                                        console.log(res.value)
+                                                                    });
+                                                            }
+                                                            function getVisitCount() {
+                                                                fetch("https://api.countapi.xyz/get/my-site/hellohello/")
+                                                                    .then((res) => res.json())
+                                                                    .then((res) => {
+                                                                        countEl.innerHTML = res.value;
+                                                                        console.log(res.value)
+                                                                    });
+                                                            }
+                                                            if (!sessionStorage.getItem("visited")) {
+                                                                sessionStorage.setItem("visited", 1);
+                                                                updateVisitCount();
+                                                            } else {
+                                                                getVisitCount();
+                                                            }
+
+                                                        </script>
+
+                                                        <iframe
+                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1720.2595270770353!2d77.00217289073902!3d11.024050515059672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8582f1435fa59%3A0x137d95bfd8909293!2sPSG%20College%20Of%20Technology!5e0!3m2!1sen!2sin!4v1657643584714!5m2!1sen!2sin"
+                                                            width="600" height="450" style="border:0;"
+                                                            allowfullscreen="" loading="lazy"
+                                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                                </div>
+                                            </div>
+                                        </div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="styles/bootstrap-4.1.2/popper.js"></script>
+	<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+	<script src="plugins/greensock/TweenMax.min.js"></script>
+	<script src="plugins/greensock/TimelineMax.min.js"></script>
+	<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="plugins/greensock/animation.gsap.min.js"></script>
+	<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="plugins/progressbar/progressbar.min.js"></script>
+	<script src="plugins/parallax-js-master/parallax.min.js"></script>
+	<script src="js/custom.js"></script>
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+	<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"780b1ef2a8331d95","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+	</body>
+</html>
